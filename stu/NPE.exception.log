@@ -1,0 +1,3 @@
+Failed to execute spark task, with exception 'java.lang.NullPointerException(null)'
+FAILED: Execution Error, return code 1 from org.apache.hadoop.hive.ql.exec.spark.SparkTask. null
+

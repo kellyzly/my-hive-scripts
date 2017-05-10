@@ -1,0 +1,7 @@
+use default;
+DROP TABLE IF EXISTS src;
+
+CREATE TABLE src (key STRING COMMENT 'default', value STRING COMMENT 'default') STORED AS TEXTFILE;
+
+LOAD DATA LOCAL INPATH "./kv1.txt" INTO TABLE src;
+
